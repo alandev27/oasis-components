@@ -1,0 +1,25 @@
+{
+  "name": "oasis",
+  "version": "1.0.0",
+  "description": "the component library for the oasis design system",
+  "main": "src/index.ts",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "jest",
+    "build": "vite build"
+  },
+  "author": "Alan Shen",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/react": "^18.2.37",
+    "@types/react-dom": "^18.2.15",
+    "@vitejs/plugin-react": "^4.1.1",
+    "jest": "^29.7.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "typescript": "^5.2.2",
+    "vite": "^5.0.0"
+  }
+}

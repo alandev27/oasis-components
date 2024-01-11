@@ -1,0 +1,17 @@
+{
+    "compilerOptions": {
+      "target": "es2015",
+      "module": "ESNext",
+      "lib": ["dom", "dom.iterable", "esnext"],
+      "jsx": "react-jsx",
+      "moduleResolution": "node",
+      "esModuleInterop": true,
+      "skipLibCheck": true,
+      "strict": true,
+      "forceConsistentCasingInFileNames": true,
+      "isolatedModules": true,
+      "allowSyntheticDefaultImports": true
+    },
+    "include": ["src", "../t/db"],
+    "exclude": ["node_modules", "dist", "build"]
+}
